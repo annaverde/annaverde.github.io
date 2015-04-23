@@ -1,0 +1,56 @@
+*{
+  box -sizing: boder-box;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  margin: 0px
+}
+
+.header {
+  display: flex;
+}
+
+h1 {
+  font-family: "Quicksand";
+  font-size: 24px;
+}
+
+@media screen and (min-width: 600px) {
+  h1{
+    font-size: 40px;
+  }
+}
+
+.navitem {
+  display: block;
+}
+
+@media screen and (min-width: 600px) {
+  .navitem {
+    display: inline-block;
+  }
+}
+
+img {
+  max-width: 100%;
+}
+
+.projects {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.project {
+  width: 100%;
+}
+
+@media screen and (min-width:400px){
+  .project {
+    width: 50%;
+  }
+  .cover {
+    width: 100%;
+  }
+}
